@@ -13,3 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Proposal
 ***Section 1 - Introduction***
+
+In this dataset we will be looking at how different movie trailers on youtube over the last couple of decades have impacted the success of the film themselves. The dataset I found was off of **https://www.kaggle.com**, and the data was collected by "CinemaFuture, a machine learning project focused on predicting the potential success of films." The tool searches for box office earnings, budgets, cast and crew information, genres, release dates, audience ratings, and social media trends, however in this specific it scrapes YouTube comments from upcoming movies' trailers and conducts sentiment analysis to predict the success of the movie(s).
+
+***Section 2 - Data***
