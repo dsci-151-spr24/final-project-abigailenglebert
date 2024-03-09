@@ -1,0 +1,15 @@
+---
+title: "Final Project"
+author: "Abby Englebert"
+date: "2024-03-09"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Proposal
+***Section 1 - Introduction***
