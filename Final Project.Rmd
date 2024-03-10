@@ -3,6 +3,7 @@ title: "Final Project"
 author: "Abby Englebert"
 date: "2024-03-09"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 ---
@@ -20,4 +21,25 @@ In this dataset we will be looking at how different movie trailers on youtube ov
 
 See the '/data' foler.
 
-***Section 3 - Data Analysis Plan***
+***Section 3 - Data Analysis Plan***    
+
+– The outcome (response, Y) and predictor (explanatory, X) variables you will use to answer your question.
+
+*The outcome is 'Gross', the predictor is 'Sentiment Scores'.*
+
+– Very preliminary exploratory data analysis, including some summary statistics and visualizations, along with some explanation on how they help you learn more about your data. (You can add to these later as you work on your project.)
+
+
+#| label: movies_youtube_sentiments-skim
+
+skim(movies_youtube_sentiments)
+
+
+
+– The method(s) that you believe will be useful in answering your question(s). (You can update these later as you work on your project.)
+
+*I would create a multitude of different graphs that are able to display the specific data I need.*
+
+– What results from these specific statistical methods are needed to support your hypothesized answer?
+
+*The results I would need would be showing the difference between the gross or rating of a film that has a trailer on youtube, versus one that doesnt have a trailer on youtube.*
