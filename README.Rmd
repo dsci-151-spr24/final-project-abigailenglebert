@@ -1,39 +1,28 @@
 ---
-title: Project title
-author: by your name
+title: Final Project
+author: Abigail Englebert
 output: github_document
 ---
 
 ## Summary
 
-Write-up of your project and findings go here. 
-Think of this as the text of your presentation. 
-The length should be roughly 5 minutes when read out loud.
-Although pacing varies, a 5-minute speech is roughly 750 words. 
-To use the word count addin, select the text you want to count the words of (probably this is the 
-Summary section of this document, go to Addins, and select the `Word count` addin).
-This addin counts words using two different algorithms, but the results should be similar and as long as you're in the ballpark of 750 words, you're good! 
-The addin will ignore code chunks and only count the words in prose.
-
-You can also load your data here and present any analysis results / plots, but I strongly urge you to keep that to a minimum (maybe only the most important graphic, if you have one you can choose). 
-And make sure to hide your code with  `echo = FALSE` unless the point you are trying to make is about the code itself.
-Your results with proper output and graphics go in your presentation, this space is for a brief summary of your project.
-
-```{r load-data, echo = FALSE}
-# load data here, if you like
-```
+##In this dataset we will be looking at how different movie trailers on youtube over the last couple of decades have impacted the success of the film themselves. The dataset I found was off of **https://www.kaggle.com**, and the data was collected by "CinemaFuture, a machine learning project focused on predicting the potential success of films." The tool searches for box office earnings, budgets, cast and crew information, genres, release dates, audience ratings, and social media trends, however in this specific dataset it scrapes YouTube comments from upcoming movies' trailers and conducts sentiment analysis to predict the success of the movie(s). The methods I used to answer my questions would be a code chunk showing the correlation between sentiment scores and box office performancet, then I used a bar graph showing the the ratios of opening weekend revenue to trailer views. I then used a code chunk to determine the number of sentiment scores.There seems to be strong link between higher box office receipts and sentiment scores that are favourable, however, it was also discovered that low sentiment scores had no appreciable influence on box office receipts. On the left side, we have movies with much less box office success than we would have expected based on their trailers’ online performances. On the right side, we have movies that sold more tickets than their slighter YouTube numbers would have predicted. Most movies fall somewhere in the middle, with 59 percent. The average film that had trailers YouTube had a postive sentiment score of 87,153, while the other had a negative score of 42,413. The movies that had a more neutral score had 76,248.In conclusion, films that have a trailer on youtube, tend to be more sucessful.##
 
 ## Presentation
 
-My presentation can be found [here](presentation/presentation.html).
+My presentation can be found [here](https://c76875f28d7b4b3fbdd3c0bfb0f1d581.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2Fpresentation%2Fpresentation.html#1).
 
 ## Data 
 
-Include a citation for your data here. 
-See http://libraryguides.vu.edu.au/c.php?g=386501&p=4347840 for guidance on proper citation for datasets. 
-If you got your data off the web, make sure to note the retrieval date.
+Dineshvasired. (2024). CinemaFuture (Movie_Youtube_Sentiments) [Dataset]. In Kaggle. https://www.kaggle.com/code/dineshvasired/cinemafuture-movie-youtube-sentiments#Basic-Movie-Gross-Prediction
+
+Movies YouTube Trailers & sentiment. (2024). [Dataset]. In Kaggle. https://www.kaggle.com/datasets/dineshvasired/movies-youtube-trailers-and-sentimentdinesh-dinesh?resource=download&select=movies_youtube_sentiments.csv 05/05/2024
+
+YouTube Movies Analysis (Version V1) [Dataset]. www.kaggle.com. https://www.kaggle.com/code/zain280/youtube-movies-analysis/notebook 05/05/2024
+
 
 ## References
+Ijraset. (n.d.-b). Analysing the Impact of sentiment analysis on predicting movie success in social network Communities: a review. IJRASET. https://www.ijraset.com/research-paper/sentiment-analysis-on-predicting-movie-success-in-social-network-communities#:~:text=According%20to%20the%20study%2C%20there,emotion%20scores%20that%20are%20favourable. 05/05/2024
 
-List any references here. You should, at a minimum, list your data source.
+Zauzmer, B. (2019, November 14). Can YouTube trailer views predict box office openings? The Hollywood Reporter. https://www.hollywoodreporter.com/movies/movie-news/how-predictive-are-youtube-trailer-views-box-office-openings-1251422/ 05/05/2024
 
